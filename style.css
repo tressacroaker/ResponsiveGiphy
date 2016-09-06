@@ -1,0 +1,25 @@
+body {
+  font-family: "Oswald";
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+header {
+  width: 100vw;
+  text-align: center;
+}
+
+header img {
+  width: 1000px;
+}
+
+footer {
+  background-color: #8d8d8d;
+  height: 50px;
+  width: 100vw;
+  text-align: center;
+  padding-top: 25px;
+}

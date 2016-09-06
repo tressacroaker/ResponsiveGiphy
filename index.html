@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+
+    <header>
+      <img src="http://static.tumblr.com/ciw9oon/JlRnbeayw/2-giphy-header-1000x362-.12fps.gif"/>
+      <h1>Giphy Flex Box and Media Queries</h1>
+      <h2>
+        <a href="#">About Us</a>
+        <a href="#">Work for Us</a>
+        <a href="#">Meet the Staff</a>
+        <a href="#">Tune Time</a>
+        <a href="#">The Ultimate Giphy-nater</a>
+      </h2>
+      <input type="text" placeholder="Giphy Search" id="query" value="sheep">
+      <button type="button" onclick="search(document.getElementById('query').value)">Enter</button>
+    </header>
+
+    <div class="giphyPlacement"></div>
+
+    <footer>Copyright Big Giant Sheep Company 1964.</footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
